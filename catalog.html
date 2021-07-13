@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/nouislider.css">
+  <link rel="stylesheet" href="./css/catalog.css">
+  <title>Глесси каталог</title>
+</head>
+<body class="root">
+  <div class="container">
+    <header class="header">
+      <div class="header__logo"></div>
+      <nav class="header__nav">
+          <ul class="header__list">
+              <li class="header__iteme"><a href="./catalog.html" class="header__link">Каталог</a>
+                  <ul class="header__sublist">
+                      <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big sulink-header">Новинки</a></li>
+                      <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big">Сливочное</a></li>
+                      <li class="header__subitemes"><a href="./inwork.html" class="header__sublink">Щербеты</a>
+                      </li>
+                      <li class="header__subitemes"><a href="./inwork.html" class="header__sublink">Фркутовый
+                              лед</a></li>
+                      <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big">Мелорин</a></li>
+                  </ul>
+              </li>
+              <li class="header__iteme"><a href="./inwork.html" class="header__link">Доставка и оплата </a></li>
+              <li class="header__iteme"><a href="./inwork.html" class="header__link">О компании</a></li>
+          </ul>
+      </nav>
+      <div class="header__btns">
+          <div class="header__search">
+              <a href="#" class="header__search-btn"></a>
+              <form action="#" class="header__search-form">
+                  <input type="search" name="search" id="search" class="header__search-input" placeholder="Крем-брюле">
+              </form>
+          </div>
+          <a href="#" class="header__login-btn"></a>
+          <form action="#" class="header__login-form">
+              <input type="email" name="email" id="mail" class="header__mail-input" placeholder="email@example.com">
+              <input type="password" name="password" id="password" class="header__pass-input">
+              <div class="header__entrance">
+                  <input type="submit" value="Вход" class="header__ent-btn">
+                  <div class="header__ent-links">
+                      <a href="./iwork.html" class="header__ent-link">Забыли пароль?</a>
+                      <a href="./iwork.html" class="header__ent-link">Новая регистрация</a>
+                  </div>
+              </div>
+          </form>
+          <a href="#" class="header__basket"></a>
+          <div class="header__info">
+              <time class="header__time">с 10 до 20, ежедневно</time>
+              <a href="tel:88124502525" class="header__telefone">8 812 450-25-25</a>
+          </div>
+      </div>
+  </header>
+  <main class="main">
+      <h1 class="main__title">Сливочное мороженое</h1>
+      <form class="filter">
+          <div class="filter__select">
+              <h2 class="filter__title">Сортировка:</h2>
+              <select name="options" id="options" class="filter__options">
+                  <option value="по популярности" class="filter__option">по популярности</option>
+                  <option value="сначала недорогие" class="filter__option">сначала недорогие</option>
+                  <option value="сначала дорогие" class="filter__option">сначала дорогие</option>
+                  <option value="по жирности" class="filter__option">по жирности</option>
+              </select>
+          </div>
+          <div class="filter__prises">
+              <div class="filter__prise">
+                  <p class="filter__text">Цена:</p>
+                  <div class="filter__inputs">
+                      <lablel class="filter__prise-label">
+                          <input type="number" name="value" id="value-one" class="filter__input">
+                          <span class="filter__span">₽</span>
+                      </lablel>
+                      <lablel class="filter__prise-label">
+                        <input type="number" name="value" id="value-two" class="filter__input">
+                        <span class="filter__span">₽</span>
+                    </lablel>
+                  </div>
+                  <div class="filter__slider" id="filter__slider"></div>
+              </div>
+          </div>
+      </form>
+    <section class="hits">
+        <article class="hits__card">
+            <img src="./img/hits/hit1.png" alt="" class="hits__img">
+            <p class="hits__prise">310 ₽/кг</p>
+            <p class="hits__discription">Сливочное с апельсиновым <br> джемом и цитрусовой стружкой</p>
+        </article>
+        <article class="hits__card">
+            <img src="/img/hits/hit2.png" alt="" class="hits__img">
+            <p class="hits__prise">380 ₽/кг</p>
+            <p class="hits__discription">Сливочно-кофейное с кусочками шоколада</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/hits/hit3.png" alt="" class="hits__img">
+            <p class="hits__prise">355 ₽/кг</p>
+            <p class="hits__discription">Сливочно-клубничное с присыпкой из белого шоколада</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/hits/hit4.png" alt="" class="hits__img">
+            <p class="hits__prise">415 ₽/кг</p>
+            <p class="hits__discription">Сливочное крем-брюле <br> с карамельной подливкой</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/4.png" alt="" class="hits__img">
+            <p class="hits__prise">325 ₽/кг</p>
+            <p class="hits__discription">Сливочное с брусничным <br> джемом</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/5.png" alt="" class="hits__img">
+            <p class="hits__prise">410 ₽/кг</p>
+            <p class="hits__discription">Сливочно-черничное с цельными ягодами черники </p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/6.png" alt="" class="hits__img">
+            <p class="hits__prise">315 ₽/кг</p>
+            <p class="hits__discription">Сливочно-лимонное с карамельной присыпкой</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/8.png" alt="" class="hits__img">
+            <p class="hits__prise">320 ₽/кг</p>
+            <p class="hits__discription">Сливочное с шоколадной стружкой</p>
+        </article>   <article class="hits__card">
+            <img src="./img/photo-catalog/7.png" alt="" class="hits__img">
+            <p class="hits__prise">320 ₽/кг</p>
+            <p class="hits__discription">Сливочное с шоколадной стружкой</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/9.png" alt="" class="hits__img">
+            <p class="hits__prise">435 ₽/кг</p>
+            <p class="hits__discription">Сливочноe с ментоловым <br> сиропом</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/10.png" alt="" class="hits__img">
+            <p class="hits__prise">415 ₽/кг</p>
+            <p class="hits__discription">Сливочное с кусочками черного шоколада</p>
+        </article>
+        <article class="hits__card">
+            <img src="./img/photo-catalog/11.png" alt="" class="hits__img">
+            <p class="hits__prise">420 ₽/кг</p>
+            <p class="hits__discription">Сливочное с мятным сиропом</p>
+        </article>
+    </section>
+  </main>
+  <footer class="footer">
+    <ul class="footer__social-list">
+        <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/facebook.svg" alt=""></a></li>
+        <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/vk.svg" alt=""></a></li>
+        <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/instagram.svg" alt=""></a></li>
+        <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/twetter.svg" alt=""></a></li>
+    </ul>
+    <div class="footer__info">
+    <img src="./img/svg/heart.svg" alt="" class="footer__info-img">
+    <ul class="footer__info-list">
+        <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link"> Для поставщиков<a><li>
+        <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link footer__link-doc">Наши документы</a></li>
+        <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link">О производстве</a></li>
+        <li class="footer__info-item"><a href="./inwork.html"class="footer__info-link">Экологическиестандарты</a></li>
+    </ul>
+    </div>
+    <div class="footer__academy">
+        <img src="./img/svg/HTML Academy.svg" alt="лого" class="footer__logo">
+        <p class="footer__made-info">Сделано в HTML Academy © 2021</p>
+    </div>
+</footer>
+  </div>
+  <script src="./js/jquery-3.6.0.min.js"></script>
+  <script src="./js/nouislider.js"></script>
+  <script src="./js/catalog.js"></script>
+</body>
+</html>

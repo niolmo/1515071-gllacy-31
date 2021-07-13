@@ -1,12 +1,222 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Глейси</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Глесси</title>
+</head>
 
-  </body>
+<body>
+    <div class="wrapper">
+        <div class="slider swiper-container">
+            <div class="slider__wrapper swiper-wrapper">
+                <div class="slider__slide-one swiper-slide">
+                    <div class="slider__img">
+                        <img src="./img/acecream/1.png" alt="">
+                    </div>
+                </div>
+                <div class="slider__slide-two swiper-slide">
+                    <div class="slider__img">
+                        <img src="./img/acecream/2.png" alt="">
+                    </div>
+                </div>
+                <div class="slider__slide-three swiper-slide">
+                    <div class="slider__img">
+                        <img src="./img/acecream/3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <div class="container">
+                <div class="swiper-pagination"></div>
+                <header class="header">
+                    <div class="header__logo"></div>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__iteme"><a href="./catalog.html" class="header__link">Каталог</a>
+                                <ul class="header__sublist">
+                                    <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big sulink-header">Новинки</a></li>
+                                    <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big">Сливочное</a></li>
+                                    <li class="header__subitemes"><a href="./inwork.html" class="header__sublink">Щербеты</a>
+                                    </li>
+                                    <li class="header__subitemes"><a href="./inwork.html" class="header__sublink">Фркутовый
+                                            лед</a></li>
+                                    <li class="header__subitemes"><a href="./inwork.html" class="header__sublink header__sublink-big">Мелорин</a></li>
+                                </ul>
+                            </li>
+                            <li class="header__iteme"><a href="./inwork.html" class="header__link">Доставка и оплата </a></li>
+                            <li class="header__iteme"><a href="./inwork.html" class="header__link">О компании</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__btns">
+                        <div class="header__search">
+                            <a href="#" class="header__search-btn"></a>
+                            <form action="#" class="header__search-form">
+                                <input type="search" name="search" id="search" class="header__search-input" placeholder="Крем-брюле">
+                            </form>
+                        </div>
+                        <a href="#" class="header__login-btn"></a>
+                        <form action="#" class="header__login-form">
+                            <input type="email" name="email" id="mail" class="header__mail-input" placeholder="email@example.com">
+                            <input type="password" name="password" id="password" class="header__pass-input">
+                            <div class="header__entrance">
+                                <input type="submit" value="Вход" class="header__ent-btn">
+                                <div class="header__ent-links">
+                                    <a href="./iwork.html" class="header__ent-link">Забыли пароль?</a>
+                                    <a href="./iwork.html" class="header__ent-link">Новая регистрация</a>
+                                </div>
+                            </div>
+                        </form>
+                        <a href="#" class="header__basket"></a>
+                        <div class="header__info">
+                            <time class="header__time">с 10 до 20, ежедневно</time>
+                            <a href="tel:88124502525" class="header__telefone">8 812 450-25-25</a>
+                        </div>
+                    </div>
+            </header>
+                <main>
+                    <a href="./inwork.html" class="main__btn">Давайте оба!</a>
+                    <section class="banners">
+                        <div class="banners__banner bunners__banner-num-one">
+                            <h2 class="bunners__title">Малинка даром!</h2>
+                            <p class="bunners__discription">При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ
+                                банку
+                                малинового варенья бесплатно.</p>
+                            <a href="./inwork.html" class="bunners__btn">Хочу варенье!</a>
+                        </div>
+                        <div class="banners__banner bunners__banner-num-two">
+                            <h2 class="bunners__title">Шоколадки даром!</h2>
+                            <p class="bunners__discription">При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей
+                                шоколадной присыпки совершенно бесплатно.</p>
+                            <a href="./inwork.html" class="bunners__btn bunners__btn-width-big">Хочу
+                                шоколадки!</a>
+                        </div>
+                    </section>
+                    <section class="hits">
+                        <article class="hits__card">
+                            <img src="./img/hits/hit.svg" alt="Хит" class="hits__svg">
+                            <img src="./img/hits/hit1.png" alt="" class="hits__img">
+                            <p class="hits__prise">310 ₽/кг</p>
+                            <p class="hits__discription">Сливочное с апельсиновым <br> джемом и цитрусовой стружкой</p>
+                        </article>
+                        <article class="hits__card">
+                            <img src="./img/hits/hit.svg" alt="Хит" class="hits__svg">
+                            <img src="/img/hits/hit2.png" alt="" class="hits__img">
+                            <p class="hits__prise">380 ₽/кг</p>
+                            <p class="hits__discription">Сливочно-кофейное с кусочками шоколада</p>
+                        </article>
+                        <article class="hits__card">
+                            <img src="./img/hits/hit.svg" alt="Хит" class="hits__svg">
+                            <img src="./img/hits/hit3.png" alt="" class="hits__img">
+                            <p class="hits__prise">355 ₽/кг</p>
+                            <p class="hits__discription">Сливочно-клубничное с присыпкой из белого шоколада</p>
+                        </article>
+                        <article class="hits__card">
+                            <img src="./img/hits/hit.svg" alt="Хит" class="hits__svg">
+                            <img src="./img/hits/hit4.png" alt="" class="hits__img">
+                            <p class="hits__prise">415 ₽/кг</p>
+                            <p class="hits__discription">Сливочное крем-брюле <br> с карамельной подливкой</p>
+                        </article>
+                    </section>
+                    <section class="ceo">
+                        <h2 class="ceo__title">Магазин Глэйси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
+                        <div class="ceo__cards">
+                            <article class="ceo__card">
+                                <img src="./img/svg/Asecream.svg" alt="Мороженное" class="ceo__svg">
+                                <p class="ceo__description">Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+                            </article>
+                            <article class="ceo__card">
+                                <img src="./img/svg/cow.svg" alt="Корова" class="ceo__svg">
+                                <p class="ceo__description">Закупка ингредиентов производится только у проверенных фермерских хозяйств и компаний, с которыми нас связывает долговременное сотрудничество.</p>
+                            </article>
+                            <article class="ceo__card">
+                                <img src="./img/svg/list.svg" alt="Листик" class="ceo__svg">
+                                <p class="ceo__description">Для приготовления мороженого используются настоящие сливки и молоко высочайшего качества. Все дополнительные ингредиенты и добавки произведены из натурального, экологически чистого сырья.</p>
+                            </article>
+                            <article class="ceo__card">
+                                <img src="./img/svg/termometr.svg" alt="Градусеик" class="ceo__svg">
+                                <p class="ceo__description">Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="banners">
+                        <div class="banners__banner bunners__banner-plase-news">
+                            <h2 class="bunners__news-titile"><a href="./inwork.html" class="bunners__link">Новое в нашем блоге</a></h2>
+                            <p class="bunners__subtitle"><a href="./inwork.html" class="bunners__sublink">10 способов сервировки фруктовых щербетов к столу</a></p>
+                        </div>
+                        <div class="banners__banner bunners__banner-plase-subscribe">
+                            <p class="bunners__about">Подпишитесь на нашу сладкую рассылку и будьте всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
+                            <form action="#" class="bunners__form">
+                                <input type="email" name="email" id="email" class="bunners__email" placeholder="email@example.com">
+                                <input type="submit" value="Отправить" class="bunners__btn bunners__btn-plase-subscribe">
+                            </form>
+                        </div>
+                    </section>
+            </div>
+            <section class="map">
+                <img src="./img/svg/geo-point.svg" alt="" class="map__point">
+                <div class="map__contacts">
+                    <p class="map__info">
+                        Адрес главного офиса и офлайн-магазина:
+                    </p>
+                    <address class="map__plase">
+                        наб Реки Карповки,<br> 5 лит П, Санкт-Петербург
+                    </address>
+                    <div class="map__telephone">
+                        <p class="map__text">Для заказов по телефону:</p>
+                        <a href="tel:+7 800 555-86-28" class="map__num">+7 800 555-86-28</a>
+                        <time class="map__time">(с 10 до 20 ежедневно)</time>
+                    </div>
+                    <a href="#popup" class="map__fitback">Форма обратной связи</a>
+                </div>
+            </section>
+            </main>
+            <footer class="footer">
+                <ul class="footer__social-list">
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/facebook.svg" alt=""></a></li>
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/vk.svg" alt=""></a></li>
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/instagram.svg" alt=""></a></li>
+                    <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="./img/svg/social/twetter.svg" alt=""></a></li>
+                </ul>
+                <div class="footer__info">
+                <img src="./img/svg/heart.svg" alt="" class="footer__info-img">
+                <ul class="footer__info-list">
+                    <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link"> Для поставщиков<a><li>
+                    <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link footer__link-doc">Наши документы</a></li>
+                    <li class="footer__info-item"><a href="./inwork.html" class="footer__info-link">О производстве</a></li>
+                    <li class="footer__info-item"><a href="./inwork.html"class="footer__info-link">Экологическиестандарты</a></li>
+                </ul>
+                </div>
+                <div class="footer__academy">
+                    <img src="./img/svg/HTML Academy.svg" alt="лого" class="footer__logo">
+                    <p class="footer__made-info">Сделано в HTML Academy © 2021</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <form action="#" class="popup__form">
+                    <a href="#0" class="popup__close"></a>
+                    <h2 class="popup__title">Мы обязательно вам ответим!</h2>
+                    <input type="text" name="name" id="name" class="popup__name" placeholder="Имя Фамилия">
+                    <input type="email" name="popup-mail" id="popup-mail" class="popup__email" placeholder="email@example.com">
+                    <textarea name="text" id="text"  class="popup__text" placeholder="В свободной форме"></textarea>
+                    <input type="submit" value="Отправить" class="popup__btn">
+                </form>
+            </div>
+        </div>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/swiper-bundle.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
 </html>
